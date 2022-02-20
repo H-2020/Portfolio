@@ -41,6 +41,6 @@
   if($_POST['privacy'] !='accept') {
     die('Please, accept our terms of service and privacy acy policy');
     }
-
+    forms/contact.php
   echo $contact->send();
 ?>
