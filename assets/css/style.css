@@ -695,12 +695,12 @@ section {
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
-  height: 0;
+  height: 10;
   border-top: 20px solid #fff;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   position: absolute;
-  bottom: -20px;
+  bottom: -10px;
   left: calc(50% - 20px);
 }
 .testimonials .swiper-pagination {
